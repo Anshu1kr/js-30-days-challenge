@@ -6,7 +6,7 @@
 
 ## Assignment Operators
 
--An assignment operator in JavaScript is used to assign a value to a variable. The most basic assignment operator is the equal sign (=), which assigns the value on the right to the variable on the left. There are also compound assignment operators that perform an operation on the variable and then assign the result back to that variable.
+- An assignment operator in JavaScript is used to assign a value to a variable. The most basic assignment operator is the equal sign (=), which assigns the value on the right to the variable on the left. There are also compound assignment operators that perform an operation on the variable and then assign the result back to that variable.
 
 ## Comparison Operators
 
