@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remove Last Child</title>
+  </head>
+  <body>
+    <h1 id="heading">This is heading</h1>
+    <div id="container">
+      <p id="para1">This is paragraph 1</p>
+      <p id="para2">This is paragraph 2</p>
+    </div>
+    <button onclick="removeLastChild()">Remove Last Child</button>
+  </body>
+  <script>
+    function removeLastChild() {
+      document.getElementById("container").lastElementChild.remove();
+    }
+  </script>
+</html>

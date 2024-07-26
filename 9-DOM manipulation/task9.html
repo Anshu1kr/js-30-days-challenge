@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Click Event Listener</title>
+  </head>
+  <body>
+    <h1 id="heading">This is Original Text.</h1>
+    <button id="btn">Change Text</button>
+  </body>
+  <script>
+    document.getElementById("btn").addEventListener("click", changeText);
+    function changeText() {
+      document.getElementById("heading").innerHTML = "This is New Text";
+    }
+  </script>
+</html>

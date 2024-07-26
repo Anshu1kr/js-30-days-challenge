@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add And Remove CSS Class</title>
+  </head>
+  <body>
+    <h1 id="heading1">This is heading 1</h1>
+    <h1 id="heading2" style="color: green">This is heading 1</h1>
+    <button onclick="addCss()">Add CSS Class</button>
+    <button onclick="removeCss()">Remove CSS Class</button>
+  </body>
+  <script>
+    function addCss() {
+      document.getElementById("heading1").style.color = "red";
+    }
+    function removeCss() {
+      document.getElementById("heading2").style.color = "";
+    }
+  </script>
+</html>

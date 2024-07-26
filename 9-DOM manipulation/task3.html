@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Append New Div</title>
+  </head>
+  <body>
+    <button onclick="appendNewDiv()">Append New Div</button>
+  </body>
+  <script>
+    function appendNewDiv() {
+      let newDiv = document.createElement("div");
+      newDiv.innerHTML = "This is a new Div element";
+      document.body.appendChild(newDiv);
+    }
+  </script>
+</html>

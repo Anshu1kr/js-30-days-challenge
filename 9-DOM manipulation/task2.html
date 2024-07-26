@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Background Color</title>
+  </head>
+  <body>
+    <div class="color">First Text</div>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+  </body>
+  <script>
+    function changeBackgroundColor() {
+      let element = document.getElementsByClassName("color");
+      for (let i = 0; i < element.length; i++) {
+        element[i].style.backgroundColor = "red";
+      }
+    }
+  </script>
+</html>
