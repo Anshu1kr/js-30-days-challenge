@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Image Visibility</title>
+  </head>
+  <body>
+    <img id="myImg" src="anshu1.jpg" width="300" height="300" />
+  </body>
+  <script>
+    document.getElementById("myImg").addEventListener("click", toggleImage);
+
+    function toggleImage() {
+      const image = document.getElementById("myImg");
+      if (image.style.display === "none") {
+        image.style.display = "block";
+      } else {
+        image.style.display = "none";
+      }
+    }
+  </script>
+</html>

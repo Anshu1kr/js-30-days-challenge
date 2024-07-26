@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change BackgroundColor</title>
+  </head>
+  <body>
+    <div
+      id="border"
+      onmouseover="mOver()"
+      onmouseout="mOut()"
+      style="background-color: red; width: 120px; height: 20px; padding: 40px"
+    >
+      Mouse Over Me
+    </div>
+  </body>
+  <script>
+    function mOver() {
+      document.getElementById("border").style.backgroundColor = "blue";
+    }
+
+    function mOut() {
+      document.getElementById("border").style.backgroundColor = "red";
+    }
+  </script>
+</html>

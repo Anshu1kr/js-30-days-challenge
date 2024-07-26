@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Input Value</title>
+  </head>
+  <body>
+    <input id="myInput" type="text" placeholder="Type Something..." />
+    <p id="para"></p>
+  </body>
+  <script>
+    document.getElementById("myInput").addEventListener("keyup", function () {
+      const inputValue = document.getElementById("myInput").value;
+      document.getElementById("para").innerText = inputValue;
+    });
+  </script>
+</html>
